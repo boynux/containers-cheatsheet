@@ -1,0 +1,14 @@
+# Site settings
+title: Containers Cheat Sheet
+email: boynux@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This web site is created to create a reach source of usefull tricks 
+  and cheat sheets for containers and spcially Docker. 
+  It’s Licensed under Creative Commons and you help and involvment is highly valuable.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.containers-cheatsheet.com" # the base hostname & protocol for your site
+twitter_username: _boynux_
+github_username:  boynux
+
+# Build settings
+markdown: kramdown

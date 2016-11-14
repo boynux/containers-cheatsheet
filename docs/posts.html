@@ -1,0 +1,22 @@
+---
+layout: posts
+---
+
+<div class="home">
+
+  {% for post in site.posts %}
+  <div class="container">
+    <h1 class="heading">Posts</h1>
+      <div class="row">
+        <div class="ten column">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </h2>
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+
+</div>
