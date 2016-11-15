@@ -4,7 +4,7 @@ layout: default
 
 ### Welcome To Containers CheatSheet!
 
-This web site is created to create a reach source of usefull tricks and cheat sheets for containers and spcially Docker. It's Licensed under Creative Commons and you help and involvment is highly valuable.
+This web site is created to provide a rich source of usefull tricks and tutorilas for containers and specially Docker. It's licensed under Creative Commons and you help and involvment is highly valuable.
 
 <h3><a class="post-link" href="{{ 'posts.html' | prepend: site.baseurl }}">Posts and Materials</a></h3>
 
