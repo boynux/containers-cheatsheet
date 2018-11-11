@@ -48,3 +48,4 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jemoji
+  - jekyll-last-modified-at
