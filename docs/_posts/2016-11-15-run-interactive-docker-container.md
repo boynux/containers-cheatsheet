@@ -2,7 +2,7 @@
 layout: post
 title:  "Run interactive docker container"
 date:   2016-11-15
-categories: docker
+categories: docker run interactive
 ---
 
 You can attach to standard input of the process in the container and interact with it, just like a normal process.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Run your first Docker container"
 date:   2016-11-14
-categories: docker linux
+categories: docker linux run
 ---
 
 If you haven't installed Docker please look at the [previous post](/docker/linux/2016/11/14/install-docker-linux.html).
