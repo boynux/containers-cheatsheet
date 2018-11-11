@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: page
+title: Welcome To Containers CheatSheet!
 ---
-
-### Welcome To Containers CheatSheet!
 
 This web site is created to provide a rich source of usefull tricks and tutorilas for containers and specially Docker. It's licensed under Creative Commons and you help and involvment is highly valuable.
 
 <h3><a class="post-link" href="{{ 'posts.html' | prepend: site.baseurl }}">Posts and Materials</a></h3>
 
+{% include site-search.html %}
 
 
 ### Contribution

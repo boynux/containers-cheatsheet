@@ -1,14 +1,49 @@
+remote_theme: daviddarnes/alembic
 # Site settings
-title: Containers Cheat Sheet
+title: Welcome To Containers CheatSheet!
 email: boynux@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This web site is created to create a reach source of usefull tricks 
   and cheat sheets for containers and spcially Docker. 
   It’s Licensed under Creative Commons and you help and involvment is highly valuable.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.containers-cheatsheet.com" # the base hostname & protocol for your site
+url: "https://www.containers-cheatsheet.com" # the base hostname & protocol for your site
 twitter_username: _boynux_
 github_username:  boynux
 
 # Build settings
 markdown: kramdown
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/_boynux_
+  LinkedIn: https://www.linkedin.com/in/boynux
+  Google+: https://plus.google.com/+Boynux
+  GitHub: https://github.com/boynux
+  link: https://boynux.com
+
+defaults:
+  - scope:
+      type: ""
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      relate: true
+
+navigation_header:
+  Home: /
+  Posts: /posts
+  Search: /search
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
+  - jekyll-feed
+  - jemoji
