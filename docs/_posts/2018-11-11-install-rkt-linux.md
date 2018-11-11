@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Install RKT on Linux"
-date:   2016-11-14
 categories: rkt linux install
 ---
 
