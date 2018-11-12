@@ -11,7 +11,7 @@ To run a Docker container you can execute the following command in terminal:
 
     $ docker run hello-world
 
-You should shee something like this in output:
+You should see something like this in output:
 
     Hello from Docker!
     This message shows that your installation appears to be working correctly.
